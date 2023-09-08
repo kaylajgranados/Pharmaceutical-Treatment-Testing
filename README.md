@@ -44,12 +44,12 @@ Generate two bar charts. Both charts should be identical and show the total numb
 
 Create the first bar chart with the Pandas DataFrame.plot() method.
 
-![image](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/34fa5d22-5f92-404a-8047-803b38f00c9c)
+<img width="621" alt="Screen Shot 2023-09-07 at 8 53 04 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/ba72555b-b7d6-4d59-b9f2-2402b390a631">
 
 
 Create the second bar chart with Matplotlib's pyplot methods.
 
-![image](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/78fa87e6-0252-4a8d-948b-b1a7c82704d8)
+<img width="622" alt="Screen Shot 2023-09-07 at 8 52 33 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/dde28eeb-2524-43d1-8e39-82721e7f2bc0">
 
 
 Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
