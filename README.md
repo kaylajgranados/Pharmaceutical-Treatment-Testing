@@ -56,7 +56,13 @@ Generate two pie charts. Both charts should be identical and show the distributi
 
 Create the first pie chart with the Pandas DataFrame.plot() method.
 
+![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/7b18beef-4357-4afc-8ecf-a9ee063dc248)
+
+
 Create the second pie chart with Matplotlib's pyplot methods.
+
+![pie_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/cf7052b6-4b63-4642-8cc5-7ada8156312f)
+
 
 # Calculate Quartiles, Find Outliers, and Create a Box Plot
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
