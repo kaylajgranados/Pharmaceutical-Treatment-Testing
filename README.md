@@ -56,8 +56,7 @@ Generate two pie charts. Both charts should be identical and show the distributi
 
 Create the first pie chart with the Pandas DataFrame.plot() method.
 
-![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/7b18beef-4357-4afc-8ecf-a9ee063dc248)
-
+![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/2351ffd7-6ca0-4464-9c54-1ee44dd4b60b)
 
 Create the second pie chart with Matplotlib's pyplot methods.
 
