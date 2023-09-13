@@ -1,8 +1,8 @@
 # Pharmaceutical Treatment Testing using Pandas and Matplotlib
 
-In this project, I used Python to analyze pharmaceutical testing treatment data. The purpose of this study was to compare the performance of an anti-cancer medication, Capomulin, against the other treatment regimens given to 249 mice. This was a project for the UCI Data Analytics Bootcamp.
+In this project for the UCI Data Analytics Bootcamp, I used Python to analyze pharmaceutical testing treatment data. The purpose of this study was to compare the performance of an anti-cancer medication, Capomulin, against the other treatment regimen.
 
-# Clean the data
+# Data Cleaning
 
 Prepare the Data - drop duplicates
 Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
@@ -37,24 +37,21 @@ Generate two pie charts. Both charts should be identical and show the distributi
 
 Create the first pie chart with the Pandas DataFrame.plot() method.
 
-![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/2351ffd7-6ca0-4464-9c54-1ee44dd4b60b)
+![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/523b88ed-5efa-4bb1-827e-6a002f308f32)
 
 Create the second pie chart with Matplotlib's pyplot methods.
 
-![pie_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/cf7052b6-4b63-4642-8cc5-7ada8156312f)
+
+![pie_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/e6f10172-66b7-47a5-94e5-34def351f412)
 
 
 # Quartiles, Outliers, and Box Plot
 
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
-
-Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
-
-Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
-
-Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
-
-Determine outliers by using the upper and lower bounds, and then print the results.
+1. Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
+2. Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
+3. Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
+4. Determine outliers by using the upper and lower bounds, and then print the results.
 
 Using Matplotlib, generate a box plot of the final tumor volume for all four treatment regimens. Highlight any potential outliers in the plot by changing their color and style.
 
