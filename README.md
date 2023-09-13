@@ -1,5 +1,7 @@
 # Pharmaceutical Treatment Testing using Pandas and Matplotlib
 
+In this project, I used Python to analyze pharmaceutical data about a mouse study. This was a project for the UCI Data Analytics Bootcamp.
+
 
 # Background
 You've just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
