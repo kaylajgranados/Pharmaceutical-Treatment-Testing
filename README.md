@@ -25,11 +25,12 @@ Generate two bar charts. Both charts should be identical and show the total numb
 
 Create the first bar chart with the Pandas DataFrame.plot() method.
 
-<img width="621" alt="Screen Shot 2023-09-07 at 8 53 04 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/ba72555b-b7d6-4d59-b9f2-2402b390a631">
+![bar_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/4996e5f4-ebe0-4088-bd57-8bec80e5a061)
+
 
 Create the second bar chart with Matplotlib's pyplot methods.
 
-<img width="622" alt="Screen Shot 2023-09-07 at 8 52 33 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/dde28eeb-2524-43d1-8e39-82721e7f2bc0">
+![bar_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/a32eda25-c976-43f4-b989-9d5f400da595)
 
 # Pie Charts
 
@@ -37,13 +38,12 @@ Generate two pie charts. Both charts should be identical and show the distributi
 
 Create the first pie chart with the Pandas DataFrame.plot() method.
 
-![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/523b88ed-5efa-4bb1-827e-6a002f308f32)
+![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/f22dafcc-3443-427d-814b-da39b5f96071)
+
 
 Create the second pie chart with Matplotlib's pyplot methods.
 
-
-![pie_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/e6f10172-66b7-47a5-94e5-34def351f412)
-
+![pie_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/7c8c9246-5f64-488e-b8ac-c11f68d72219)
 
 # Quartiles, Outliers, and Box Plot
 
@@ -55,13 +55,22 @@ Calculate the final tumor volume of each mouse across four of the most promising
 
 Using Matplotlib, generate a box plot of the final tumor volume for all four treatment regimens. Highlight any potential outliers in the plot by changing their color and style.
 
+![boxplot](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/e36ee97d-c260-4543-a569-bb8ff80d7691)
+
+
 # Line Plot
 
 Select a mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
+![lineplot](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/a7e9f2c7-dbd9-42b5-8705-e8c8411a7108)
+
+
 # Scatter Plot 
 
 Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
+
+![scatterplot](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/0f2f081e-975e-4c36-a2ef-c75d558594de)
+
 
 # Correlation
 
@@ -70,6 +79,9 @@ Calculate the correlation coefficient and linear regression model between mouse 
 # Regression 
 
 Plot the linear regression model on top of the previous scatter plot.
+
+![linear_regression](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/d98d614b-8c25-4dbc-94aa-ab8e21e4f383)
+
 
 # Summary
 
