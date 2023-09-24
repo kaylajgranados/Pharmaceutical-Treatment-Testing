@@ -4,46 +4,43 @@ In this project for the UCI Data Analytics Bootcamp, I used Python to analyze ph
 
 # Merge data 
 
-Prepare the Data 
-Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
-
-Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
-
-Display the updated number of unique mice IDs.
+Merged the mouse_metadata and study_results DataFrames into a single DataFrame.
 
 # Summary Statistics 
 
-Create two summary statistics DataFrames:
+I created two summary statistics DataFrames. For the first DataFrame, I used the groupby method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. 
 
-For the first DataFrame, use the groupby method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. This should result in five unique Series objects. Combine these objects into a single summary statistics DataFrame.
+<img width="707" alt="Screen Shot 2023-09-24 at 6 09 29 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/09ad1b99-3d1d-4351-8fd3-e0d76dc61724">
 
-For the second DataFrame, use the agg method to produce the same summary statistics table by using a single line of code.
+For the second DataFrame, I used the agg method to produce the same summary statistics table by using a single line of code.
+
+<img width="1139" alt="Screen Shot 2023-09-24 at 6 09 57 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/e0266c3e-36e2-4bd4-ac07-1b586999a639">
+
 
 # Bar Charts 
 
-Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
+I generated two bar charts showing the total number of time points for all mice tested for each drug regimen throughout the study. 
 
-Create the first bar chart with the Pandas DataFrame.plot() method.
+The first bar chart uses the Pandas built-in plotting function. 
 
-![image](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/c8d5bf2c-b64e-4fa9-b910-4e02191d40c1)
+<img width="566" alt="Screen Shot 2023-09-24 at 6 12 53 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/37976de0-b31d-46ac-bfcb-5d079f8ee394">
 
+The second bar chart with Matplotlib methods.
 
-Create the second bar chart with Matplotlib's pyplot methods.
+<img width="615" alt="Screen Shot 2023-09-24 at 6 13 15 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/44857588-d3ac-4793-bead-e5f4bc7756cf">
 
-![bar_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/a32eda25-c976-43f4-b989-9d5f400da595)
 
 # Pie Charts
 
-Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
+I generated two pie charts showing the distribution of female versus male mice in the study.
 
-Create the first pie chart with the Pandas DataFrame.plot() method.
+The first pie chart uses the Pandas built-in plotting function. 
 
-![pie_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/f22dafcc-3443-427d-814b-da39b5f96071)
+<img width="444" alt="Screen Shot 2023-09-24 at 6 13 33 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/2e2e90e1-a38b-4efe-9526-e634f9fcd0cd">
 
+The second pie chart with Matplotlib methods.
 
-Create the second pie chart with Matplotlib's pyplot methods.
-
-![pie_chart2](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/7c8c9246-5f64-488e-b8ac-c11f68d72219)
+<img width="444" alt="Screen Shot 2023-09-24 at 6 13 58 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/34285d4a-bdc2-4e12-86f9-662d044fbbe0">
 
 # Quartiles, Outliers, and Box Plot
 
