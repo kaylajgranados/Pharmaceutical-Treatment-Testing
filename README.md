@@ -25,7 +25,7 @@ Generate two bar charts. Both charts should be identical and show the total numb
 
 Create the first bar chart with the Pandas DataFrame.plot() method.
 
-![bar_chart1](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/4996e5f4-ebe0-4088-bd57-8bec80e5a061)
+![image](https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/c8d5bf2c-b64e-4fa9-b910-4e02191d40c1)
 
 
 Create the second bar chart with Matplotlib's pyplot methods.
