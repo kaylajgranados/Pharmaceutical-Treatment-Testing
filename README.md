@@ -86,7 +86,7 @@ The linear regression equation is y = 0.95x + 21.55. This means there is a stron
 1. From the bar charts, I can conclude that Capomulin and Ramicane are the most promising drug regimens.
 2. From the pie charts, I can note that there are slightly more males than females in this study.
 3. From the box plots, I can see that Capomulin and Ramicane have lower median tumor volumes, lower IQRs, and potential outliers with lower values than Infubinol and Ceftamin. Capomulin and Ramicane have lower tumor volumes and less variability.
-4. From the positive correlation coefficient between Weight and Tumor Volume, I can conclude that when the value of one variable increases in a mouse treated with the Capomulin drug regimen, we'd expect the other variable to increase. This is visualized in the linear regression model.
+4. From the positive correlation coefficient between 'Weight' and 'Tumor Volume', I can conclude that when the value of one variable increases in a mouse treated with the Capomulin drug regimen, we'd expect the other variable to increase. This is visualized in the linear regression model.
 
 
 
