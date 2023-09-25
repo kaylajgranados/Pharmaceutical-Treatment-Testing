@@ -47,7 +47,7 @@ Here is the code used for the for loop:
 <img width="821" alt="Screen Shot 2023-09-24 at 6 19 09 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/df131a73-b605-4a42-8782-b6fcc31d550f">
 
 
-To visualize the quartiles, I generate a box plot of the final tumor volume for all four treatment regimens. 
+To visualize the quartiles, I generated a box plot of the final tumor volume for all four treatment regimens. 
 
 <img width="603" alt="Screen Shot 2023-09-24 at 6 19 49 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/5444d19b-b466-4262-bff5-39779072c66f">
 
