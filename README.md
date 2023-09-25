@@ -40,7 +40,7 @@ The second pie chart uses Matplotlib methods.
 
 I calculated the final tumor volume of each mouse across four of the treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, I calculated the quartiles and IQR, and I determined if there were any potential outliers.
 
-To do so, I created a grouped DataFrame that shows the last (greatest) time point for each mouse and merged this grouped DataFrame with the original cleaned DataFrame. Then, I created a list that holds the treatment names as well as a second, empty list to hold the tumor volume data. I used a for loop to iterate through each drug in the treatment list, locate the rows in the merged DataFrame that correspond to each treatment, and extract the tumor volume data for each of the treatments. I also determine outliers by using the upper and lower bounds. 
+To do so, I created a grouped DataFrame that shows the last (greatest) time point for each mouse and merged this grouped DataFrame with the original cleaned DataFrame. Then, I created a list that holds the treatment names as well as a second, empty list to hold the tumor volume data. I used a for loop to iterate through each drug in the treatment list, locate the rows in the merged DataFrame that correspond to each treatment, and extract the tumor volume data for each of the treatments. I also identified outliers by using the upper and lower bounds. 
 
 Here is the code used for the for loop: 
 
@@ -72,11 +72,11 @@ The correlation coefficient between 'Weight' and 'Tumor Volume' is 0.82. This in
 <img width="845" alt="Screen Shot 2023-09-24 at 6 22 11 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/f9efc988-fd86-44ff-be5b-b89c29887984">
 
 
-# Regression 
+# Linear Regression 
 
 I calculated linear regression and plotted the linear regression model on top of the previous scatter plot.
 
-The linear regression equation is y = 0.95x + 21.55. This means there is a strong positive relationship between 'Weight' and 'Tumor Volume', with 'Weight' as the independent variable and 'Tumor Volume' as the dependent variable. 
+The linear regression equation is y = 0.95x + 21.55.
 
 <img width="604" alt="Screen Shot 2023-09-24 at 6 23 57 PM" src="https://github.com/kaylajgranados/Pharmaceutical-Treatment-Testing/assets/83734241/60517eb4-df61-4a35-846f-30786bc6e864">
 
@@ -85,8 +85,9 @@ The linear regression equation is y = 0.95x + 21.55. This means there is a stron
 
 1. From the bar charts, I can conclude that Capomulin and Ramicane are the most promising drug regimens.
 2. From the pie charts, I can note that there are slightly more males than females in this study.
-3. From the box plots, I can see that Capomulin and Ramicane have lower median tumor volumes, lower IQRs, and potential outliers with lower values than Infubinol and Ceftamin. Capomulin and Ramicane have lower tumor volumes and less variability.
-4. From the positive correlation coefficient between 'Weight' and 'Tumor Volume', I can conclude that when the value of one variable increases in a mouse treated with the Capomulin drug regimen, we'd expect the other variable to increase. This is visualized in the linear regression model.
-
+4. From the box plot, I can see that Capomulin and Ramicane have lower median tumor volumes, lower IQRs, and potential outliers with lower values than Infubinol and Ceftamin. Capomulin and Ramicane have lower tumor volumes and less variability.
+5. From the line plot, I can conclude that 'Tumor Volume' decreased as 'Timepoint' increased for mouse s185. 
+6. From the positive correlation coefficient between 'Weight' and 'Tumor Volume', I can conclude that as 'Weight' increases, 'Tumor Volume' tends to increase as well.
+7. From the Linear Regression, I can conclude that for every unit increase in 'Weight', I would expect 'Tumor Volume' to increase by 0.95 units, starting from the value of 21.55.
 
 
